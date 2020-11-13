@@ -1,5 +1,5 @@
 # Challenge
-Train a binary classifier on given 7494 academic article titles and/or abstracts to predict if the text belongs to Material Science or Chemistry category and evalute your best performing model's F-1, accurracy and AUC scores.
+Train a binary classifier on given 7494 academic article titles and/or abstracts to predict if the text belongs to `Material Science` or `Chemistry` category and evalute the best performing model's F-1, accurracy and AUC scores.
 
 ### Data
 `wos2class.json` dataset is available in `data` folder. This dataset contains 7494 JSON objects with following schema:
@@ -22,9 +22,10 @@ Chemistry:             2962        740
 ```
 4. You can train your model on Titles or Abstracts or somehow combine these two fields as an input.
 5. Feel free to use any pretrained models (such as FastText, BERT, ELMo, GloVe etc) to extract features or train your own language model from scratch depending on your accuracy objectives.
-6. There is no minimum F-1 and accuracy score requirement. Try your best.
+6. There is no minimum F-1 or accuracy score requirement. Try your best. The higher the better.
 7. You can develop your code to run on CPUs or GPUs. Feel free to choose what's convenient for you.
 8. Results must be reproducable. That's why, do not forget to use random seeds where applicable.
+9. Check your code against PEP8 style specifications. Flake8 is a great linter package to comply with PEP8 standards.
 
 
 
@@ -47,3 +48,4 @@ torch==1.6.0
 scikit-learn==0.21.3
 ```
 7. Write a short REPORT.md file describing your approach, main challenges experienced and observations, the highest metrics you achieved, ROC curve plot, confusion matrix and your ideas on how to improve further.
+8. 
