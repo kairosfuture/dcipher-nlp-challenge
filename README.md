@@ -34,7 +34,7 @@ Chemistry:             2962        740
 2. Precision-Recall curves for classification thresholds in range (0-1).
 
 ### Submission
-1. Create a private clone of this repository on GitHub (so that other participants cannot copy your solution), and give account [zafercavdar]() at least read access. Read more on duplicating a repository [here.](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/duplicating-a-repository)
+1. Create a private clone of this repository on GitHub (so that other participants cannot copy your solution), and give account [zafercavdar](https://github.com/zafercavdar) at least read access. Read more on duplicating a repository [here.](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/duplicating-a-repository)
 2. Put your `wos2class.train.json` and `wos2class.test.json` files to `data` folder.
 3. Put your training code (including preprocessing, feature extraction, classification etc) into `train.py`
 4. Put your the best performing model's weights to `models` folder.
